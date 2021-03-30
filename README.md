@@ -2,6 +2,8 @@
 
 Making it super easy to collect and organise your learning resources.
 
+[Notes](https://docs.google.com/document/d/1NNuhU1o3IV2HCOBvrvmCLPsM8TVMv91wsC2ht6T5WsE/edit?usp=sharing)
+
 ## Working on
 
 - safari extension that 
