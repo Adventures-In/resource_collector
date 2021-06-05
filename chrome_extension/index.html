@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>ResourceCollector</title>
+    <style>
+      button {
+        padding: 10px;
+        background-color: #3C79F8;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="signInWithPopup()">FriendBlock Contacts</button>
+    <div id="friendDiv"></div>
+    
+    <script>
+      const signInWithPopup = () => {
+        chrome.identity.getAuthToken({ 'interactive': true }, function(token) {
+          // Use the token.
+          console.log(token);
+        });
+      };
+    </script>
+  </body>
+</html>
